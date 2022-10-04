@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K1ngStore</title>
+    <link rel="stylesheet" href="./assests/style.css">
+    <link rel="stylesheet" href="./assests/mediaqueries.css">
+</head>
+
+<body>
+    <header>
+        <img src="./assests/img/logo-kingstore.jpg" alt="logo" class="logo-kingstore">
+        <nav class="navbar">
+            <div class="navbar_list">
+                <div class="navbar_links"><a href="#Portada">INICIO</a></div>
+                <div class="navbar_links"><a href="#beneficios">DESCUBRE</a></div>
+                <div class="navbar_links"><a href="#max-width">TIENDA</a></div>
+                <div class="navbar_links"><a href="#contacto">CONTACTO</a></div>
+
+                <div class="contenedor-user">
+                    <div class="cerrar-sesion"><a href="./index.html">Cerrar sesion</a></div>
+                </div>
+
+                <label for="menu-carrito" class="carrito">
+                    <img src="./assests/img/cart-icon.png" alt="Carrito">
+                </label>
+                <input type="checkbox" id="menu-carrito" />
+
+                <div class="cart">
+                    <h2>Tu carrito</h2>
+                    <div class="cart-item">
+                        <img src="./assests/img/fifa.webp" alt="un producto">
+                        <div class="item-info">
+                            <h3 class="item-title">FIFA 23</h3>
+                            <p class="item-price">69.99 U$D</p>
+                        </div>
+                    </div>
+
+                    <div class="cart-total">
+                        <p>Total: </p>
+                        <span>18.3 ETH</span>
+                    </div>
+                    <button class="btn-add">Comprar</button>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="Portada">
+            <div class="portada">
+                <div class="portada-info">
+                    <h2>Encuentra el mejor precio en <span>K1ngStore</span></h2>
+                    <p>Somos una plataforma de distribución digital de videojuegos desarrollada por Rey Corporation. Lanzada en abril de 2022 con el objetivo de vender los juegos del mercado al coste mas bajo.</p>
+                </div>
+                <div class="portada-img">
+                    <img src="./assests/img/equipo.jpg" alt="equipo">
+                </div>
+            </div>
+        </section>
+
+        <h2 class="vendidos">Mas vendidos</h2>
+        <section id="max-width">
+            <div class="portada2">
+                <div class="juego1">
+                    <img src="./assests/img/mw2222.png" alt="MW2">
+                    <h2>Call of Duty: Modern Warfare II </h2>
+                    <p>Modern Warfare 2​​ ​​es un videojuego de acción en primera persona desarrollado por Infinity Ward. Es la sexta entrega de la serie Call of Duty y sucesora directa de Modern Warfare, cuarto de la serie.</p>
+                    <div class="juego1-contenedor">
+                        <h3>69.99 usd</h3>
+                        <div class="btn-enlace"><a href="#">Comprar</a></div>
+                    </div>
+                </div>
+                <div class="juego2">
+                    <img src="./assests/img/fifa.webp" alt="FIFA 23">
+                    <h2>FIFA 23</h2>
+                    <p>FIFA 22 es un videojuego desarrollado por EA Vancouver y EA Romania, siendo publicado por EA Sports. Está disponible para PlayStation 4, PlayStation 5, Xbox Series X/S, Xbox One, Microsoft Windows, Google Stadia y Nintendo Switch.</p>
+                    <div class="juego2-contenedor"> 
+                        <h3>69.99 usd</h3>
+                        <div class="btn-enlace2"><a href="#">Comprar</a>
+                    </div>
+
+                    </div>
+                     
+                    
+                </div>
+                <div class="juego3">
+                    <img src="./assests/img/Csgo.webp" alt="CSGO">
+                    <h2>Counter-Strike: Global Offensive</h2>
+                    <p>Counter-Strike: Global Offensive es un videojuego de disparos en primera persona desarrollado por Valve Corporation y Hidden Path Entertainment. Es el cuarto juego de la saga Counter-Strike. Fue lanzado al mercado en agosto de 2012 para las plataformas de Microsoft Windows, macOS y Xbox 360 y PlayStation 3.
+                    </p>
+                    <div class="juego3-contenedor">
+                        <h3>18.99usd</h3>
+                        <div class="btn-enlace3"><a href="#">Comprar</a></div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <div class="formulario">
+                <h1>Formulario de contacto</h1>
+                <form class="formulario">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" required>
+
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" required>
+
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" required>
+
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+
+            </div>
+
+            <div class="ubicacion">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.182512751677!2d-58.39795498459203!3d-34.59954606478486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca95732ed3db%3A0x19c2589f90082d06!2sAyacucho%20800%2C%20C1111AAB%20CABA!5e0!3m2!1ses-419!2sar!4v1664700560115!5m2!1ses-419!2sar"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <ul class="footer-links">
+                <li><a href="#">Términos de Uso</a></li>
+                <li><a href="#">Trabajá con Nosotros</a></li>
+                <li><a href="#">Soporte</a></li>
+            </ul>
+        </div>
+        <p>Hecho en <span>K1ngStore</span></p>
+    </footer>
+
+</body>
+
+</html>
