@@ -26,6 +26,7 @@
 
     .portada2{
         display: flex;
+        justify-content: start;
         flex-wrap: wrap;
         gap: 50px;
     }
@@ -33,6 +34,11 @@
     .juego2,
     .juego3{
         width: 45%;
+    }
+    .juego1 img,
+    .juego2 img,
+    .juego3 img{
+        width: 240%;
     }
 
     .juego1 h2,
