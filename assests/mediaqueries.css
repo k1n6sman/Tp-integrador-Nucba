@@ -187,7 +187,7 @@
 
 @media (max-width: 471px){
     .contenedor-user{
-        left: 70%;
+        left: 68%;
         bottom: 250px;
     }
 
@@ -195,7 +195,7 @@
         display: flex;
         padding: 8px;
         position: absolute;
-        margin-left: 55%;
+        margin-left: 50%;
     }
 
     .carrito img {
@@ -211,7 +211,7 @@
         height: 100%;
     }
 
-    
+
 
 
 }
