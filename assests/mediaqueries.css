@@ -122,8 +122,9 @@
     }
 
     .contenedor-user {
-        left: 85%;
+        left: 55%;
         bottom: 255px;
+        height: 10px;
     }
 
     .portada{
