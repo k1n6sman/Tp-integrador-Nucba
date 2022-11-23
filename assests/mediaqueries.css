@@ -183,8 +183,32 @@
         height: 60%;
         border-radius: 10px;
     }
+}
 
+@media (max-width: 471px){
+    .contenedor-user{
+        left: 70%;
+        bottom: 250px;
+    }
 
+    .carrito{
+        display: flex;
+        padding: 8px;
+        position: absolute;
+        margin-left: 55%;
+    }
 
+    .carrito img {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .logo-kingstore {
+        margin-bottom: 40px;
+        width: 15%;
+        height: 100%;
+    }
 }
 
