@@ -207,6 +207,9 @@
         height: 60%;
         border-radius: 10px;
     }
+    #menu-toggle:checked + .navbar_list{
+        display: flex;
+    }
 
 }
 
@@ -253,11 +256,6 @@
     .menu-label{
     display: flex;
     margin-right: 50px;
-
-    }
-
-    #menu-toggle:checked + .navbar_list{
-        display: flex;
     }
 
 }
