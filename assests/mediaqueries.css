@@ -72,7 +72,13 @@
         width: 30%;
         height: 100%;
     }
-    
+
+    .carrito {
+        display: flex;
+        padding: 8px;
+        position: absolute;
+        margin-left: 65%;
+    }
     
     .cart {
         width: 60%;
