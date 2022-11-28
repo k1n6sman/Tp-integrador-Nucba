@@ -14,39 +14,45 @@
     <header>
         <img src="./assests/img/logo-kingstore.jpg" alt="logo" class="logo-kingstore">
         <nav class="navbar">
-            <div class="navbar_list">
-                <div class="navbar_links"><a href="#Portada">INICIO</a></div>
-                <div class="navbar_links"><a href="#beneficios">DESCUBRE</a></div>
-                <div class="navbar_links"><a href="#max-width">TIENDA</a></div>
-                <div class="navbar_links"><a href="#contacto">CONTACTO</a></div>
+            <label for="menu-toggle" class="menu-label">
+                <img src="./assests/img/menu.png" alt="icono menu" class="menu-icon2" />
+            </label>
+            <input type="checkbox" id="menu-toggle"/>
 
-                <div class="contenedor-user">
-                    <div class="cerrar-sesion"><a href="./index.html">Logout</a></div>
-                </div>
+            <ul class="navbar_list">
+                <li class="navbar_links"><a href="#Portada">INICIO</a></li>
+                <li class="navbar_links"><a href="#beneficios">DESCUBRE</a></li>
+                <li class="navbar_links"><a href="#max-width">TIENDA</a></li>
+                <li class="navbar_links"><a href="#contacto">CONTACTO</a></li>
 
-                <label for="menu-carrito" class="carrito">
-                    <img src="./assests/img/cart-icon.png" alt="Carrito">
-                </label>
-                <input type="checkbox" id="menu-carrito" />
-
-                <div class="cart">
-                    <h2>Tu carrito</h2>
-                    <div class="cart-item">
-                        <img src="./assests/img/fifa.webp" alt="un producto">
-                        <div class="item-info">
-                            <h3 class="item-title">FIFA 23</h3>
-                            <p class="item-price">69.99 U$D</p>
-                        </div>
-                    </div>
-
-                    <div class="cart-total">
-                        <p>Total: </p>
-                        <span>18.3 ETH</span>
-                    </div>
-                    <button class="btn-add">Comprar</button>
-
-                </div>
+                
+            </ul>
+            <div class="contenedor-user">
+                <div class="cerrar-sesion"><a href="./index.html">Logout</a></div>
             </div>
+
+            <label for="menu-carrito" class="carrito">
+                <img src="./assests/img/cart-icon.png" alt="Carrito">
+            </label>
+            <input type="checkbox" id="menu-carrito"/>
+
+            <div class="cart">
+                <h2>Tu carrito</h2>
+                <div class="cart-item">
+                    <img src="./assests/img/fifa.webp" alt="un producto">
+                    <div class="item-info">
+                        <h3 class="item-title">FIFA 23</h3>
+                        <p class="item-price">69.99 U$D</p>
+                    </div>
+                </div>
+
+                <div class="cart-total">
+                    <p>Total: </p>
+                    <span>18.3 ETH</span>
+                </div>
+                <button class="btn-add">Comprar</button>
+            </div>
+
         </nav>
     </header>
     <main>
